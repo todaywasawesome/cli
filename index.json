@@ -11,7 +11,7 @@
 	"title": "Getting Started",
 	"tags": [],
 	"description": "",
-	"content": " Install Install the CLI through one of the possible ways described in the Installation page\nAuthenticate In order to start working with the cli you will need to update the authentication configuration. Updating the authentication configuration is done via an API-KEY you generate from Codefresh. If you already have an API-KEY you can just use it.\nYou can generate a new one from the account settings page. You must be an account admin to generate api keys Once you have an API key, create a new authentication context:\ncodefresh auth create-context --api-key {API_KEY}\nGetting Help To get help and usage instructions run codefresh [COMMAND]--help.\nA help message will appear in the terminal.\nShowing Current Version Run codefresh version to see the current CLI version.\n\nThat\u0026rsquo;s it, you are good to go! "
+	"content": " Install Install the CLI through one of the possible ways described in the Installation page.\nAuthenticate In order to start working with the cli you will need to update the authentication configuration. Updating the authentication configuration is done via an API-KEY you generate from Codefresh. If you already have an API-KEY you can just use it.\nYou can generate a new one from the account settings page. You must be an account admin to generate api keys Once you have an API key, create a new authentication context:\ncodefresh auth create-context --api-key {API_KEY}\nGetting Help To get help and usage instructions run codefresh [COMMAND]--help.\nA help message will appear in the terminal.\nShowing Current Version Run codefresh version to see the current CLI version.\n\nThat\u0026rsquo;s it, you are good to go! "
 },
 {
 	"uri": "http://cli.codefresh.io/installation/npm/",
@@ -74,7 +74,7 @@
 	"title": "Builds",
 	"tags": [],
 	"description": "",
-	"content": " Get a single build codefresh get builds [id]\nGet a specific build or an array of builds\nRestart a build codefresh restart \u0026lt;id\u0026gt;\nRestart a build by its id\nShow logs codefresh logs \u0026lt;id\u0026gt;\nShow logs of a build\nTerminate a build codefresh terminate \u0026lt;id\u0026gt;\nTerminate a build by its id\nWait for a build condition codefresh wait \u0026lt;id..\u0026gt;\nWait until a condition will be met on a build\n"
+	"content": " Get a single build codefresh get builds [id]\nGet a specific build or an array of builds\nShow logs codefresh logs \u0026lt;id\u0026gt;\nShow logs of a build\nTerminate a build codefresh terminate \u0026lt;id\u0026gt;\nTerminate a build by its id\nRestart a build codefresh restart \u0026lt;id\u0026gt;\nRestart a build by its id\nWait for a build condition codefresh wait \u0026lt;id..\u0026gt;\nWait until a condition will be met on a build\n"
 },
 {
 	"uri": "http://cli.codefresh.io/categories/",
@@ -228,7 +228,7 @@
 	"title": "Images",
 	"tags": [],
 	"description": "",
-	"content": " Get a single image codefresh get images [id]\nGet a specific or an array of images\nAnnotate an image codefresh annotate image \u0026lt;id\u0026gt;\nAnnotate an image\nTag an image codefresh tag \u0026lt;id\u0026gt; [tags..]\nAdd an image tag\n"
+	"content": " Annotate an image codefresh annotate image \u0026lt;id\u0026gt;\nAnnotate an image\nGet a single image codefresh get images [id]\nGet a specific or an array of images\nTag an image codefresh tag \u0026lt;id\u0026gt; [tags..]\nAdd an image tag\n"
 },
 {
 	"uri": "http://cli.codefresh.io/predefined-pipelines/install-or-upgrade-a-helm-chart/",
@@ -249,7 +249,7 @@
 	"title": "Predefined Pipelines",
 	"tags": [],
 	"description": "",
-	"content": " Install or upgrade a Helm chart codefresh install-chart\nInstall or upgrade a Helm chart Repository flag can be either absolute url or saved repository in Codefresh\nDelete a helm release codefresh delete-release [name]\nDelete a helm release\nTest a helm release codefresh test-release [name]\nTest a helm release\n"
+	"content": " Delete a helm release codefresh delete-release [name]\nDelete a helm release\nInstall or upgrade a Helm chart codefresh install-chart\nInstall or upgrade a Helm chart Repository flag can be either absolute url or saved repository in Codefresh\nTest a helm release codefresh test-release [name]\nTest a helm release\n"
 },
 {
 	"uri": "http://cli.codefresh.io/compositions/replace-a-composition/",
