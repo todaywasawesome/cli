@@ -67,14 +67,14 @@
 	"title": "Authentication",
 	"tags": [],
 	"description": "",
-	"content": " Create authentication context codefresh auth create-context [name]\nCreate or update an authentication context\nGet activated context codefresh auth current-context\nGet the current activated authentication context\nSet active context codefresh auth use-context \u0026lt;name\u0026gt;\nSet the current active authentication context\nGet all contexts codefresh auth get-contexts\nGet all possible authentication contexts\n"
+	"content": " Create authentication context codefresh auth create-context [name]\nCreate or update an authentication context\nGet activated context codefresh auth current-context\nGet the current activated authentication context\nGet all contexts codefresh auth get-contexts\nGet all possible authentication contexts\nSet active context codefresh auth use-context \u0026lt;name\u0026gt;\nSet the current active authentication context\n"
 },
 {
 	"uri": "http://cli.codefresh.io/builds/",
 	"title": "Builds",
 	"tags": [],
 	"description": "",
-	"content": " Get a single build codefresh get builds [id]\nGet a specific build or an array of builds\nShow logs codefresh logs \u0026lt;id\u0026gt;\nShow logs of a build\nTerminate a build codefresh terminate \u0026lt;id\u0026gt;\nTerminate a build by its id\nRestart a build codefresh restart \u0026lt;id\u0026gt;\nRestart a build by its id\nWait for a build condition codefresh wait \u0026lt;id..\u0026gt;\nWait until a condition will be met on a build\n"
+	"content": " Get a single build codefresh get builds [id]\nGet a specific build or an array of builds\nShow logs codefresh logs \u0026lt;id\u0026gt;\nShow logs of a build\nRestart a build codefresh restart \u0026lt;id\u0026gt;\nRestart a build by its id\nTerminate a build codefresh terminate \u0026lt;id\u0026gt;\nTerminate a build by its id\nWait for a build condition codefresh wait \u0026lt;id..\u0026gt;\nWait until a condition will be met on a build\n"
 },
 {
 	"uri": "http://cli.codefresh.io/categories/",
