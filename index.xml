@@ -273,7 +273,7 @@ Get all possible authentication contexts</description>
       <guid>http://cli.codefresh.io/predefined-pipelines/install-or-upgrade-a-helm-chart/</guid>
       <description> Command codefresh install-chart
 Install or upgrade a Helm chart Repository flag can be either absolute url or saved repository in Codefresh
-Options    Option Default Description     &amp;ndash;cluster  Install on cluster   &amp;ndash;namespace default Install on namespace   &amp;ndash;tiller-namespace kube-system Where tiller has been installed   &amp;ndash;repository  Helm repository (absolute url or name of context with type help-repository)   &amp;ndash;name  Name of the chart in the repository   &amp;ndash;version  Version of the chart in the repository   &amp;ndash;context  Contexts (yaml   &amp;ndash;detach  Run pipeline and print build ID   &amp;ndash;release-name  The name to set to the release    </description>
+Options    Option Default Description     &amp;ndash;cluster  Install on cluster   &amp;ndash;namespace default Install on namespace   &amp;ndash;tiller-namespace kube-system Where tiller has been installed   &amp;ndash;repository  Helm repository (absolute url or name of context with type help-repository)   &amp;ndash;name  Name of the chart in the repository   &amp;ndash;version  Version of the chart in the repository   &amp;ndash;context  Contexts (yaml   &amp;ndash;set  set of KEY=VALUE to be passed to the install   &amp;ndash;detach  Run pipeline and print build ID   &amp;ndash;release-name  The name to set to the release    </description>
     </item>
     
     <item>

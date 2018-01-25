@@ -235,7 +235,7 @@
 	"title": "Install or upgrade a Helm chart",
 	"tags": [],
 	"description": "",
-	"content": " Command codefresh install-chart\nInstall or upgrade a Helm chart Repository flag can be either absolute url or saved repository in Codefresh\nOptions    Option Default Description     \u0026ndash;cluster  Install on cluster   \u0026ndash;namespace default Install on namespace   \u0026ndash;tiller-namespace kube-system Where tiller has been installed   \u0026ndash;repository  Helm repository (absolute url or name of context with type help-repository)   \u0026ndash;name  Name of the chart in the repository   \u0026ndash;version  Version of the chart in the repository   \u0026ndash;context  Contexts (yaml   \u0026ndash;detach  Run pipeline and print build ID   \u0026ndash;release-name  The name to set to the release    "
+	"content": " Command codefresh install-chart\nInstall or upgrade a Helm chart Repository flag can be either absolute url or saved repository in Codefresh\nOptions    Option Default Description     \u0026ndash;cluster  Install on cluster   \u0026ndash;namespace default Install on namespace   \u0026ndash;tiller-namespace kube-system Where tiller has been installed   \u0026ndash;repository  Helm repository (absolute url or name of context with type help-repository)   \u0026ndash;name  Name of the chart in the repository   \u0026ndash;version  Version of the chart in the repository   \u0026ndash;context  Contexts (yaml   \u0026ndash;set  set of KEY=VALUE to be passed to the install   \u0026ndash;detach  Run pipeline and print build ID   \u0026ndash;release-name  The name to set to the release    "
 },
 {
 	"uri": "http://cli.codefresh.io/pipelines/",
