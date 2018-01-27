@@ -16,4 +16,6 @@ The CLI can be used to achieve the following:
     <li>Run complex pipeline use cases by using the CLI inside your pipeline steps.</li>
 </ul>
 
+[![Codefresh CLI Walkthrough](https://codefresh.io/wp-content/uploads/2018/01/Codefresh-cli-video.png)](https://www.youtube.com/watch?v=9Qwi_JFcYpc)
+
 To get started please navigate to [Getting started](/getting-started) page.
